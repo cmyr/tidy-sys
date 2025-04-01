@@ -1,8 +1,3 @@
-##############################################################################
-# @file CMakeLists.txt
-# Build executables, static and dylibs, packages, build systems, etc., for
-# HTML Tidy.
-#
 # Read this file or use cmake-gui (Windows) or ccmake (everything else) for
 # guided build.
 #
@@ -17,7 +12,7 @@
 # @date    Consult git log.
 ##############################################################################
 
-cmake_minimum_required (VERSION 2.8.12)
+cmake_minimum_required (VERSION 3.5)
 
 set(LIB_NAME tidy)
 set(LIBTIDY_DESCRIPTION "${LIB_NAME} - HTML syntax checker")
